@@ -17,7 +17,7 @@ public class Event {
     private EventType typeEvent;
     private int maxNumberPartecipants;
 
-    public Evento (){};
+    public Event (){};
 
     public Event(String title, LocalDate dataEvent, String description, EventType typeEvent, int maxNumberPartecipants) {
         this.title = title;
