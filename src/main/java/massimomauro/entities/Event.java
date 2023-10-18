@@ -3,6 +3,7 @@ package massimomauro.entities;
 import javax.persistence.*;
 
 import java.time.LocalDate;
+import java.util.Set;
 
 @Entity
 @Table(name="event")
@@ -16,6 +17,10 @@ public class Event {
     // @Enumerated(EnumType.STRING)
     private EventType typeEvent;
     private int maxNumberPartecipants;
+
+    private Location location;
+    private Set<Partecipation> partecipationList;
+
 
     public Event (){};
 
