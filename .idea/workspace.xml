@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f99506d6-4b70-47d7-b5af-3122a5548c03" name="Changes" comment="fix name" />
+    <list default="true" id="f99506d6-4b70-47d7-b5af-3122a5548c03" name="Changes" comment="Entity created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Partecipation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Partecipation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Person.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,7 +42,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,12 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697635387345</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Entity created">
+      <option name="closed" value="true" />
+      <created>1697636558915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697636558915</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="configuration, first commit" />
     <MESSAGE value="fix name" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix name" />
+    <MESSAGE value="Entity created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entity created" />
   </component>
 </project>

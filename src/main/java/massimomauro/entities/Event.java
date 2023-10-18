@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.Set;
 
 @Entity
-@Table(name="event")
+@Table(name="events")
 public class Event {
     @Id
     @GeneratedValue
@@ -18,7 +18,10 @@ public class Event {
     private EventType typeEvent;
     private int maxNumberPartecipants;
 
+
     private Location location;
+    @OneToMany
+    @OrderBy("title ASC")
     private Set<Partecipation> partecipationList;
 
 

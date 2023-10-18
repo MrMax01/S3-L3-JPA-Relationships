@@ -8,7 +8,9 @@ public class Partecipation {
     @GeneratedValue
     private long id;
     private Person person;
+    @ManyToOne
     private Event event;
     private Status status;
+    public Partecipation(){}
 
 }

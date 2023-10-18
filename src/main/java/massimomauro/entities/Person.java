@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.util.Set;
 
 @Entity
-@Table(name="person")
+@Table(name="persons")
 public class Person {
     @Id
     @GeneratedValue
@@ -15,5 +15,7 @@ public class Person {
     private String email;
     private LocalDate birthday;
     private Sesso sesso;
-    private Set<Partecipation> partecipationList;
+
+    //private Set<Partecipation> partecipationList;
+    public Person (){};
 }
